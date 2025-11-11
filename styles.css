@@ -1,0 +1,464 @@
+/**** HOME PAGE ****/
+
+body {
+  margin: 0;
+  background-color: #FFF9ED;
+}
+
+.homePageNav {
+  background-image: url(mobileVersion.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  color: #FFF9ED;
+  font-family: "Carattere", cursive;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  padding-top: 77px;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.button {
+  background-color: #FFF9ED;
+  color: #592619;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 200px;
+  border: 2px solid #592619;
+  opacity: 0.7;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #592619;
+  color: #FFF9ED;
+}
+
+
+/*** MAIN ***/
+main {
+  margin-left: 29px;
+  margin-right: 29px;
+  background-color: #FFF9ED;
+
+}
+
+/*** HISTORY SECTION ***/
+#historyTitle {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #592619;
+  padding-top: 58px;
+  text-align: center;
+}
+
+.historyText {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #592619;
+  line-height: 34px;
+  padding-top: 90px;
+  font-size: 30px;
+}
+
+
+/**** MENU ****/
+#menuTitle {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #592619;
+  padding-top: 58px;
+}
+
+#pizzaDesc {
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 30px
+}
+
+#item,
+#price {
+  color: #592619;
+  text-align: justify;
+  font-family: "Crimson Text";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.pizzaItems {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+/*** BUILD YOUR OWN TYPE ***/
+#yourType {
+  color: #592619;
+  text-align: center;
+  font-family: "Crimson Text";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.yourOwnType {
+  border: 4px solid #A95329;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+#descType {
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#add {
+  font-size: 30px;
+}
+
+#ingredients {
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+/*** SALADS ***/
+.bar {
+  border: 3px solid #A95329;
+  margin-top: 100px;
+}
+
+#pizzaTitle,
+#saladsTitle,
+#sandwichesTitle,
+#cocktailsTitle,
+#beerWineSelzerTitle,
+#softDrinksTitle,
+#appetizersTitle {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #592619;
+  padding-top: 43px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.salad_ingredients {
+  color: #592619;
+  font-family: "Crimson Text";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 107px;
+}
+
+.saladItems {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+
+/*** SANDWICHES ***/
+#sandwiches_type {
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.submarine_sandwiches,
+.specialty_sandwiches {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+/*** COCKTAILS ***/
+.cocktails_grid,
+.beer_wine_selzer,
+.soft_drinks,
+.appetizers_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.cocktails p {
+  color: #A95329;
+  font-family: "Crimson Text";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 85px;
+}
+
+.beer_wine_selzer ul,
+.soft_drinks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*** FOOTER ***/
+footer {
+  background-color: #A95329;
+  color: #FFF9ED;
+  font-family: "Crimson Text", serif;
+  margin-top: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer h2 {
+  font-size: 35px;
+}
+
+.addressInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.addressInfo iframe {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+}
+
+.addressInfo,
+.hoursInfo {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.hours h2 {
+  margin-top: 200px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.hoursInfo {
+  border: 2px solid #FFF9ED;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+#days {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#time {
+  color: #BEC19E;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #DB842D;
+  color: #FFF9ED;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#backToTop:hover {
+  background-color: #BEC19E;
+  color: #FFF9ED;
+}
+
+
+/*** RESPONSIVE DESIGN FOR DESKTOP ***/
+@media (min-width: 1024px) {
+  .homePageNav {
+    width: 100%;
+    height: 100vh;
+    background-image: url(fullimage.jpg);
+  }
+
+  .navigation {
+    flex-direction: row;
+    top: 40%;
+  }
+
+  .historyText {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  /*TITLES*/
+  #historyTitle,
+  #menuTitle,
+  #yourType,
+  #pizzaTitle,
+  #saladsTitle,
+  #sandwichesTitle,
+  #cocktailsTitle,
+  #beerWineSelzerTitle,
+  #softDrinksTitle,
+  #appetizersTitle,
+  #addressTitle,
+  #hoursTitle {
+    font-size: 45px;
+  }
+
+  #menuTitle {
+    margin-top: 200px;
+  }
+
+  .title {
+    font-size: 200px;
+  }
+
+  .pizzaItems,
+  .saladItems,
+  .specialty_sandwiches,
+  .cocktails_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .drinks_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hoursInfo {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .saladItems,
+  .pizzaItems {
+    margin-top: 150px;
+  }
+
+  .addressInfo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .addressText {
+    padding-top: 40px;
+  }
+
+  .addressInfo,
+  .hoursInfo {
+    font-size: 35px;
+  }
+
+  .addressInfo iframe {
+    width: 500px;
+    height: 350px;
+  }
+
+  #desc,
+  #descType {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  #item,
+  #price,
+  #ingredients {
+    font-size: 40px;
+  }
+
+  #add {
+    font-size: 50px;
+  }
+
+  #backToTop {
+    padding: 15px 20px;
+  }
+
+  #pizzaDesc,
+  .salad_ingredients,
+  #sandwiches_type,
+  .cocktails p {
+    font-size: 45px;
+  }
+}
