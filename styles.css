@@ -365,6 +365,8 @@ footer h2 {
   .historyText {
     font-size: 35px;
     line-height: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
   }
 
   /*TITLES*/
@@ -461,4 +463,5 @@ footer h2 {
   .cocktails p {
     font-size: 45px;
   }
+
 }
